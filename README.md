@@ -1,2 +1,1 @@
-# FinanceApp
-personal-use finance app
+Nimbus Finance é um aplicativo de organização financeira pessoal desenvolvido em JavaScript Vanilla. O projeto tem como objetivo fornecer uma ferramenta simples para controle financeiro enquanto serve como ambiente prático para estudos de arquitetura de software, experiência do usuário e segurança de aplicações web.

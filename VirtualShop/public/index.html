@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrganizadorFinanceiro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+   <div id="main_app">
+
+    <header id="header_app">
+
+        <h1>João FINANCE_APP</h1>
+        <p><small><strong>DeadBatteries</strong></small></p>
+
+    </header>
+
+    <div id="balance_app">
+
+        <h1 id="balance"></h1>
+
+    </div>
+
+    <form id="transactions_form">
+
+        <label for="transaction">R$: </label>
+        <input type="number" name="transaction">
+        <br>
+
+        <label>
+
+        <input type="radio" name="transaction-type" value="revenue">Entrada
+
+        </label>
+
+        <label>
+
+        <input type="radio" name="transaction-type" value="expense">Saída
+
+        </label>
+        <br>
+        <label for="transaction-description">Descrição: </label>
+        <input type="text" name="transaction-description">
+
+        <button type="submit" id="sendforminfo">Enviar</button>
+
+    </form>
+    
+    <section id="view_transactions">
+    </section>
+
+    <footer id="footer_app">
+    </footer>
+
+
+   </div>
+
+
+    <script type="module" src="js/app.js" defer></script>
+
+</body>
+
+</html>
