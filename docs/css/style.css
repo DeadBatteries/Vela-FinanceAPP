@@ -9,7 +9,7 @@
 body{
     min-height:100vh;
 
-    background:#1d4ed8;
+    background:#ffffff;
 
     font-family:
         Inter,
@@ -40,7 +40,7 @@ body{
 
     text-align:center;
 
-    color:white;
+    color:rgb(179, 163, 163);
 }
 
 #header_app h1{
@@ -59,21 +59,21 @@ body{
 
 #balance_app{
 
-    background:white;
+    background:#7c3aed;
 
     border-radius:18px;
 
     padding:25px;
 
     box-shadow:
-        0 10px 25px rgba(0,0,0,.15);
+        0 10px 25px #5d00ff;
 }
 
 #balance{
 
     text-align:center;
 
-    color:#111827;
+    color:#ffffff;
 
     font-size:1.5rem;
 

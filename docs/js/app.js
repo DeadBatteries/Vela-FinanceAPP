@@ -12,6 +12,20 @@ let transactions = loadLocal();
 
 document.addEventListener("DOMContentLoaded",()=>{
 
+    //Video Introcution
+
+    const video = document.getElementById("intro-video");
+    const intro = document.getElementById("intro-screen");
+    const app = document.getElementById("main_app");
+
+    video.addEventListener("ended", ()=>{
+
+        intro.style.display = "none";
+        app.style.display = "block"
+
+    });
+
+
     renderAll(balance_show, transactions_show, transactions);
     const form = document.getElementById("transactions_form");
     
